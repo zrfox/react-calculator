@@ -30,11 +30,27 @@
   color: #888;
 }
 
-.calculator-body {
+.keypad {
   display: grid;
-  grid-template-columns: repeat(1, 8rem);
-  grid-template-rows:  repeat(5, 12rem);
+  grid-template-columns: repeat(4, 2rem);
+  grid-template-rows:  repeat(1, 2rem);
 
+}
+
+.screen {
+  background-color: rgb(27, 27, 27);
+}
+
+.top-screen {
+  background-color: rgb(173, 17, 17);
+  height: 2rem;
+
+
+}
+
+.bottom-screen {
+  background-color: rgb(17, 116, 173);
+  height: 2rem;
 }
 
 .double-space {

@@ -12,13 +12,15 @@ function Calculator() {
     return (
         <div className="calculator-body">
             <div className="screen">
-                <div className="top-screen"></div>
-                <div className="bottom-screen"></div>
+                    <div className="top-screen"></div>
+                    <div className="bottom-screen"></div>
+                </div>
                 <div className="keypad">
 
                     <button>+/-</button>
                     <button>C</button>
-                    <button className="double-space">AC</button>  
+                    <button className="double-space">AC</button> 
+                    <div></div> {/*/ fake div for double space in grid*/}
                     <button>7</button>
 
                     <button>8</button>
@@ -39,13 +41,14 @@ function Calculator() {
 
                     <button>*</button>
                     <button className="double-space">0</button>
+                    <div></div>
                     <button>.</button>
 
                     <button>÷</button>
                     <button className="double-space" id="empty-button">&nbsp;</button>
+                    <div></div>
                     <button className="double-space">=</button>
                 </div>
-            </div>
         </div>
     )
 }
